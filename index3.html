@@ -1,0 +1,118 @@
+<!--DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Interactive Resume</title>
+    <script type="text/javascript">
+        function callvalue() {
+            var fn = document.getElementById("fname").value;
+            var ln = document.getElementById("lname").value;
+            var mob = document.getElementById("mobile").value;
+            var email = document.getElementById("email").value;
+            var gender = document.getElementById("gender").value;
+            var city = document.getElementById("city").value;
+            var pincode = document.getElementById("pincode").value;
+            var country = document.getElementById("country").value;
+            var designation = document.getElementById("designation").value;
+            var n = document.getElementById("fname").value;
+            var n = document.getElementById("fname").value;
+            var n = document.getElementById("fname").value;
+
+            document.writeln(+fn);
+            document.writeln(+ln);
+            document.writeln(+mob);
+            document.writeln(+email);
+            document.writeln(+gender);
+            document.writeln(+city);
+            document.writeln(+pincode);
+            document.writeln(+country);
+            document.writeln(+designation);
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left_side">
+            <div class="profiletext">
+                <div class="imgbx">
+                    <img id="pic" />
+                </div>
+            </div>
+            <div class="contactinfo">
+                <h3 class="title">Contact Info</h3>
+                <ul>
+                    <li>
+                        <span class="icon"></span>
+                        <span class="text">+917259944172</span>
+                    </li>
+                    <li>
+                        <span class="icon"></span>
+                        <span class="text">email</span>
+                    </li>
+                    <li>
+                        <span class="icon"></span>
+                        <span class="text">abdulazeemsheik4@gmail.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"></span>
+                        <span class="text">website</span>
+                    </li>
+                    <li>
+                        <span class="icon"></span>
+                        <span class="text">address</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right_side">
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html><!--DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <script defer src="script.js"></script>
+    <title>Interactive Resume</title>
+</head>
+<body>
+    <section id="resume">
+    
+        <div class="section-content">
+            <center>
+            <h2>Resume</h2>
+            <a href="./Azeem Sheikh resume.pdf" target="_blank" class="download-button">Download resume</a>
+        </center>
+        </div>
+        
+    </section>
+    <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+    
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+    
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+    </script>
+</body>
+</html-->
